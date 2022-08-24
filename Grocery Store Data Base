@@ -1,0 +1,22 @@
+CREATE TABLE skincare (id integer primary key, name text, price integer, location text, quantity text);
+
+INSERT INTO skincare 
+
+VALUES
+    (1, "body lotion", 15, "online", 47),
+    (2, "essence", 12, "online", 15),
+    (3, "sunscreen", 7, "in-person", 3),
+    (4, "vitamin c", 24, "online", 7),
+    (5, "retinoid", 20, "in-person", 40),
+    (6, "body scrub", 8, "in-person", 76),
+    (7, "BHA serum", 10, "in-person", 1),
+    (8, "AHA serum", 10, "online", 12),
+    (9, "eye cream", 15, "online", 34),
+    (10, "moisturizer", 11, "online", 21),
+    (11, "lip balm", 5, "online", 91),
+    (12, "foot mask", 5, "in-person", 23),
+    (13, "enzyme exfoliator", 30, "online", 9),
+    (14, "shampoo", 13, "online", 4),
+    (15, "conditioner", 13, "online", 7)
+;
+SELECT * FROM skincare;
