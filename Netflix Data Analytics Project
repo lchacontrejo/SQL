@@ -62,7 +62,7 @@ VALUES
 
 QUERIES
 
---List the directors and titles of only TV shows. Exlude any NULL directors from the query
+# List the directors and titles of only TV shows. Exlude any NULL directors from the query
 SELECT netflix_people.show_id,
    netflix_people.director,
    netflix_titles_info.title,
