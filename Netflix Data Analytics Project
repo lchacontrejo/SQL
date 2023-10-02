@@ -107,4 +107,4 @@ FROM netflix_titles_info
 WHERE type = 'Movie'
 ORDER BY release_year 
 LIMIT 1
-
+;
